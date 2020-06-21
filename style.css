@@ -1,0 +1,62 @@
+.logo{
+	position: absolute;
+	top: 38%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#search-bar{
+	width:482px;
+	height:44px;
+	border-radius: 25px;
+	border-width:1px;
+	background-image: url("img/magnifying-glass.png");
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	font-size:18px;
+}
+
+.logo-img{
+	padding-left: 120px;
+	padding-bottom:20px
+}
+
+.button-group button{
+	height:35px;
+	width:36%;
+	font-size: 16px;
+	color:#5F6368;
+	font-family: arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 5px;
+	border-width:0px
+
+}
+
+.button-group{
+	padding-left: 18%;
+	padding-top: 25px;
+}
+
+.header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.left-al{
+	text-align: left;
+	float: left;
+}
+
+.right-al{
+	text-align: right;
+	float: right;
+}
+
+.header li{
+	display: inline-block;
+	padding: 5px;
+}
